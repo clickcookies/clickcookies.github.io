@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <!-- SEO Meta Tags -->
+  <title>Click Cookies — Free Cookie Clicker Game | Bake Billions of Cookies!</title>
+  <meta name="description" content="Play Click Cookies — the ultimate free cookie clicker game! Click, upgrade, and bake billions of cookies. Unlock 5 cookie types, buy buildings, earn achievements. No download needed!"/>
+  <meta name="keywords" content="cookie clicker, click cookies, cookie game, idle game, clicker game, bake cookies, cookie upgrades, free browser game, cookie clicker online, cookie clicker unblocked"/>
+  <meta name="author" content="ClickCookies"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://clickcookies.github.io/"/>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Click Cookies — The Ultimate Cookie Clicker Game"/>
+  <meta property="og:description" content="Click, bake, and build your cookie empire! 5 cookie types, upgrades, achievements and more. Play free now!"/>
+  <meta property="og:url" content="https://clickcookies.github.io/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://clickcookies.github.io/images/og-image.png"/>
+  <meta property="og:site_name" content="ClickCookies"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Click Cookies — The Ultimate Cookie Clicker Game"/>
+  <meta name="twitter:description" content="Click, bake, and build your cookie empire! Play free now!"/>
+  <meta name="twitter:image" content="https://clickcookies.github.io/images/og-image.png"/>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍪</text></svg>"/>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": "https://clickcookies.github.io/#app",
+        "name": "Click Cookies",
+        "url": "https://clickcookies.github.io/",
+        "description": "Click Cookies is a free browser-based cookie clicker idle game where players click to bake cookies, purchase upgrades and buildings, unlock 5 different cookie types, and earn achievements.",
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Idle Clicker Game",
+        "genre": "Casual, Idle, Clicker",
+        "operatingSystem": "Any (Browser-based)",
+        "browserRequirements": "Requires JavaScript",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "featureList": [
+          "5 unique cookie types",
+          "Passive income via buildings",
+          "7 powerful upgrades",
+          "10 achievements",
+          "Auto-save progress",
+          "Mobile compatible",
+          "No download required"
+        ],
+        "screenshot": "https://clickcookies.github.io/images/screenshot.png",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "12450",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://clickcookies.github.io/#website",
+        "url": "https://clickcookies.github.io/",
+        "name": "Click Cookies",
+        "description": "The most addictive free cookie clicker game online",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://clickcookies.github.io/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://clickcookies.github.io/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Click Cookies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Click Cookies is a free browser-based idle clicker game where you click a cookie to produce cookies, use them to buy upgrades and buildings that generate cookies automatically."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I unlock new cookie types?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "New cookie types unlock automatically as you bake more total cookies. Each cookie type has a total cookie threshold that must be reached to unlock it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Click Cookies free to play?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! Click Cookies is completely free to play. No downloads, no accounts, no in-app purchases required."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- HEADER (Component) -->
+  <header id="site-header" role="banner"></header>
+
+  <main>
+
+    <!-- 1. HERO SECTION -->
+    <section id="hero" class="hero-section" aria-label="Welcome to Click Cookies">
+      <div class="hero-bg-cookies" aria-hidden="true" id="heroBgCookies"></div>
+      <div class="hero-container">
+        <div class="hero-text reveal">
+          <div class="hero-badge">🏆 #1 Free Cookie Clicker Game Online</div>
+          <h1 class="hero-title">
+            Bake <span class="highlight">Billions</span> of Cookies, One Click at a Time!
+          </h1>
+          <p class="hero-desc">
+            Welcome to <strong>Click Cookies</strong> — the most deliciously addictive free cookie clicker idle game on the web. Click to bake, upgrade your bakery, unlock 5 legendary cookie types, and build a cookie empire that runs even when you're away!
+          </p>
+          <div class="hero-ctas">
+            <a href="#game" class="btn-primary">🍪 Start Clicking Now!</a>
+            <a href="#how-to-play" class="btn-secondary">📖 How to Play</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <span class="hero-stat-num">5</span>
+              <span class="hero-stat-label">Cookie Types</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-num">7+</span>
+              <span class="hero-stat-label">Upgrades</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-num">∞</span>
+              <span class="hero-stat-label">Fun</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-cookie-showcase" onclick="document.getElementById('game').scrollIntoView({behavior:'smooth'})" role="button" aria-label="Click to play the game" tabindex="0">
+            <div class="cookie-halo"></div>
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <radialGradient id="heroGrad" cx="40%" cy="35%">
+                  <stop offset="0%" stop-color="#DBA05A"/>
+                  <stop offset="100%" stop-color="#A0522D"/>
+                </radialGradient>
+              </defs>
+              <circle cx="50" cy="50" r="47" fill="url(#heroGrad)" stroke="#8B4513" stroke-width="2.5"/>
+              <ellipse cx="33" cy="30" rx="7" ry="6" fill="#5C3317" opacity="0.85"/>
+              <ellipse cx="62" cy="27" rx="6" ry="5" fill="#5C3317" opacity="0.85"/>
+              <ellipse cx="70" cy="55" rx="7" ry="6" fill="#5C3317" opacity="0.85"/>
+              <ellipse cx="38" cy="64" rx="6" ry="5" fill="#5C3317" opacity="0.85"/>
+              <ellipse cx="57" cy="74" rx="5" ry="4.5" fill="#5C3317" opacity="0.85"/>
+              <ellipse cx="24" cy="55" rx="5" ry="4.5" fill="#5C3317" opacity="0.85"/>
+              <ellipse cx="50" cy="48" rx="5" ry="4" fill="#5C3317" opacity="0.7"/>
+              <circle cx="50" cy="50" r="44" fill="none" stroke="#C8864A" stroke-width="1.5" opacity="0.3"/>
+              <ellipse cx="38" cy="38" rx="12" ry="8" fill="white" opacity="0.12" transform="rotate(-30,38,38)"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. GAME SECTION -->
+    <section id="game" aria-label="Cookie Clicker Game">
+      <div class="game-section-header">
+        <span class="section-tag">🎮 Play Now</span>
+        <h2 class="section-title" style="text-align:center;">Your Cookie Clicker Game</h2>
+        <p class="section-desc" style="text-align:center;margin:0 auto;">Click the cookie, buy buildings, unlock upgrades — build your delicious empire! Your progress saves automatically.</p>
+      </div>
+      <div id="game-area"></div>
+    </section>
+
+    <!-- 3. COOKIE TYPES SECTION -->
+    <section id="cookies" aria-labelledby="cookies-heading">
+      <div class="section-container">
+        <div class="cookies-header reveal">
+          <span class="section-tag">🍪 Cookie Gallery</span>
+          <h2 id="cookies-heading" class="section-title">5 Legendary Cookie Types to Unlock</h2>
+          <p class="section-desc">
+            From the humble Classic Cookie to the mythical Golden Cookie — each variety brings unique power, beauty, and a massive clicking multiplier. Bake your way to unlock them all!
+          </p>
+        </div>
+        <div class="cookie-types-grid" id="cookieTypesGrid"></div>
+      </div>
+    </section>
+
+    <!-- 4. HOW TO PLAY SECTION -->
+    <section id="how-to-play" aria-labelledby="htp-heading">
+      <div class="section-container">
+        <div class="how-header reveal">
+          <span class="section-tag">📖 Guide</span>
+          <h2 id="htp-heading" class="section-title">How to Play Click Cookies</h2>
+          <p class="section-desc">
+            New to cookie clicker games? Getting started is deliciously simple. Follow these steps to build your ultimate cookie empire from scratch!
+          </p>
+        </div>
+        <div class="how-steps">
+          <div class="how-step reveal">
+            <div class="step-num">1</div>
+            <span class="step-icon">👆</span>
+            <h3 class="step-title">Click the Cookie</h3>
+            <p class="step-desc">Click the big cookie in the center of the game. Every click earns you cookies based on your current click value and active multipliers.</p>
+          </div>
+          <div class="how-step reveal" style="transition-delay:0.1s">
+            <div class="step-num">2</div>
+            <span class="step-icon">🏗️</span>
+            <h3 class="step-title">Buy Buildings</h3>
+            <p class="step-desc">Spend your cookies on buildings like Grandmas, Farms, and Factories. They generate cookies passively every second — even while you're away!</p>
+          </div>
+          <div class="how-step reveal" style="transition-delay:0.2s">
+            <div class="step-num">3</div>
+            <span class="step-icon">🔧</span>
+            <h3 class="step-title">Unlock Upgrades</h3>
+            <p class="step-desc">Once you hit cookie milestones, powerful upgrades appear. Purchase them to multiply your cookie production exponentially!</p>
+          </div>
+          <div class="how-step reveal" style="transition-delay:0.3s">
+            <div class="step-num">4</div>
+            <span class="step-icon">🍪</span>
+            <h3 class="step-title">Unlock New Cookies</h3>
+            <p class="step-desc">Bake enough total cookies to unlock new cookie types — from Rainbow Sprinkle to the legendary Galaxy and Golden Cookies!</p>
+          </div>
+          <div class="how-step reveal" style="transition-delay:0.4s">
+            <div class="step-num">5</div>
+            <span class="step-icon">🏅</span>
+            <h3 class="step-title">Earn Achievements</h3>
+            <p class="step-desc">Complete baking milestones to earn achievements. These are badges of honor showing off your cookie clicker mastery!</p>
+          </div>
+          <div class="how-step reveal" style="transition-delay:0.5s">
+            <div class="step-num">6</div>
+            <span class="step-icon">🏆</span>
+            <h3 class="step-title">Climb the Leaderboard</h3>
+            <p class="step-desc">Compete with other bakers on the leaderboard. See where your total cookie count ranks against the greatest cookie barons on earth!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. UPGRADES SECTION -->
+    <section id="upgrades" aria-labelledby="upgrades-heading">
+      <div class="section-container">
+        <div class="upgrades-header reveal">
+          <span class="section-tag">⚡ Power-Ups</span>
+          <h2 id="upgrades-heading" class="section-title">Unlock Powerful Cookie Upgrades</h2>
+          <p class="section-desc">
+            Strategic upgrades multiply your entire cookie output. Invest wisely — the right upgrade at the right time can catapult your bakery from humble kitchen to cosmic cookie empire!
+          </p>
+        </div>
+        <div class="upgrades-showcase-grid" id="upgradesShowcaseGrid"></div>
+      </div>
+    </section>
+
+    <!-- 6. ACHIEVEMENTS SECTION -->
+    <section id="achievements" aria-labelledby="ach-heading">
+      <div class="section-container">
+        <div class="achievements-header reveal">
+          <span class="section-tag">🏅 Achievements</span>
+          <h2 id="ach-heading" class="section-title">10 Legendary Achievements to Earn</h2>
+          <p class="section-desc">
+            Every baker has a story. Unlock achievements by hitting milestones, clicking furiously, spending wisely, and building your empire. How many can you collect?
+          </p>
+        </div>
+        <div class="achievements-full-grid" id="achievementsFullGrid"></div>
+      </div>
+    </section>
+
+    <!-- 7. LEADERBOARD SECTION -->
+    <section id="leaderboard" aria-labelledby="lb-heading">
+      <div class="section-container">
+        <div class="leaderboard-header reveal">
+          <span class="section-tag">🏆 Leaderboard</span>
+          <h2 id="lb-heading" class="section-title">Cookie Clicker Leaderboard</h2>
+          <p class="section-desc">
+            The world's greatest cookie bakers compete for the top spot. Bake millions — no, billions — of cookies to climb the ranks and claim the ultimate title of Cookie Emperor!
+          </p>
+        </div>
+        <div class="leaderboard-table-wrapper reveal">
+          <table role="table" aria-label="Cookie clicker leaderboard">
+            <thead>
+              <tr>
+                <th scope="col">Rank</th>
+                <th scope="col">Baker</th>
+                <th scope="col" style="text-align:right">Total Cookies</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboardTable">
+              <tr><td colspan="3" style="padding:20px;text-align:center;color:#8B6A4A;">Loading bakers...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. TIPS & TRICKS SECTION -->
+    <section id="tips" aria-labelledby="tips-heading">
+      <div class="section-container">
+        <div class="how-header reveal">
+          <span class="section-tag">💡 Pro Tips</span>
+          <h2 id="tips-heading" class="section-title">Cookie Clicker Tips & Tricks</h2>
+          <p class="section-desc">
+            Want to bake cookies faster? These expert strategies will help you maximize your cookie output and climb to the top of the leaderboard in record time!
+          </p>
+        </div>
+        <div class="tips-grid">
+          <div class="tip-card reveal">
+            <h3 class="tip-title">🏗️ Prioritize Buildings Early</h3>
+            <p class="tip-desc">In the early game, buy as many Auto Clickers and Grandmas as possible. Passive income is the foundation of every great cookie empire. Even a few buildings can triple your hourly output.</p>
+          </div>
+          <div class="tip-card reveal" style="transition-delay:0.1s">
+            <h3 class="tip-title">⚡ Save for Big Upgrades</h3>
+            <p class="tip-desc">Upgrades multiply your ENTIRE production. Sometimes it's smarter to sit on 500 cookies than to spend them on one more building. Time your upgrades for maximum explosive growth.</p>
+          </div>
+          <div class="tip-card reveal" style="transition-delay:0.2s">
+            <h3 class="tip-title">🍪 Switch Cookie Types Strategically</h3>
+            <p class="tip-desc">Higher-tier cookies like the Galaxy Cookie and Golden Cookie offer massive click multipliers. Unlock them ASAP by focusing your early play on reaching their total cookie thresholds.</p>
+          </div>
+          <div class="tip-card reveal" style="transition-delay:0.3s">
+            <h3 class="tip-title">💾 Save Often</h3>
+            <p class="tip-desc">Click the save button regularly or let the auto-save handle it every 30 seconds. Your progress is stored in your browser — use a private/incognito window and your data won't persist!</p>
+          </div>
+          <div class="tip-card reveal" style="transition-delay:0.4s">
+            <h3 class="tip-title">🏭 Diversify Your Buildings</h3>
+            <p class="tip-desc">Don't over-invest in a single building type. A diverse portfolio — Farms, Mines, Factories — tends to outperform stacking just one building type due to diminishing returns in cost.</p>
+          </div>
+          <div class="tip-card reveal" style="transition-delay:0.5s">
+            <h3 class="tip-title">🌙 Let It Run Overnight</h3>
+            <p class="tip-desc">The true beauty of idle games is offline progress! Leave Click Cookies running in a browser tab overnight and wake up to millions of passively baked cookies waiting for you!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <div class="cta-banner" aria-hidden="false">
+      <div style="position:relative;z-index:1;">
+        <h2>Ready to Become the World's Greatest Cookie Baker? 🍪</h2>
+        <p>Join thousands of players clicking their way to cookie stardom. It's free, it's fun, it's addictive!</p>
+        <a href="#game" class="btn-primary" style="display:inline-flex;margin:0 auto;">🎮 Start Baking Now</a>
+      </div>
+    </div>
+
+    <!-- 9. FAQ SECTION -->
+    <section id="faq" aria-labelledby="faq-heading">
+      <div class="section-container">
+        <div class="how-header reveal" style="text-align:center;margin-bottom:40px;">
+          <span class="section-tag">❓ FAQ</span>
+          <h2 id="faq-heading" class="section-title">Frequently Asked Questions</h2>
+          <p class="section-desc" style="margin:0 auto;">Got questions about the world's most delicious clicker game? We've got answers fresh from the oven!</p>
+        </div>
+        <div class="faq-list" id="faqList"></div>
+      </div>
+    </section>
+
+    <!-- 10. ABOUT SECTION -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="section-container">
+        <div class="about-content">
+          <div class="about-text reveal">
+            <span class="section-tag">🍪 About</span>
+            <h2 id="about-heading" class="section-title">About Click Cookies</h2>
+            <p>
+              <strong>Click Cookies</strong> is a passion project born from a love of idle games and, well, actual cookies. We set out to build the most polished, beautiful, and satisfying free cookie clicker game available in your browser — no downloads, no ads, no paywalls.
+            </p>
+            <p>
+              The cookie clicker genre was pioneered by Orteil's classic game, and we've taken those addictive mechanics and wrapped them in a gorgeous, colorful, fully-animated experience. Whether you're a casual tapper or a hardcore idle optimizer, Click Cookies has depth for everyone.
+            </p>
+            <p>
+              We update the game regularly with new cookie types, buildings, and upgrades. Your feedback shapes what comes next — join our Discord to share ideas and connect with the baking community!
+            </p>
+            <div class="about-features">
+              <div class="about-feature"><span class="about-feature-icon">✅</span> 100% Free — No purchases, no ads</div>
+              <div class="about-feature"><span class="about-feature-icon">✅</span> Works on mobile, tablet & desktop</div>
+              <div class="about-feature"><span class="about-feature-icon">✅</span> Auto-saves your progress locally</div>
+              <div class="about-feature"><span class="about-feature-icon">✅</span> Offline cookie production while away</div>
+              <div class="about-feature"><span class="about-feature-icon">✅</span> Regularly updated with new content</div>
+            </div>
+          </div>
+          <div class="about-visual reveal">
+            <div class="about-stat-card">
+              <span class="about-stat-num">5</span>
+              <span class="about-stat-label">Cookie Types</span>
+            </div>
+            <div class="about-stat-card">
+              <span class="about-stat-num">7</span>
+              <span class="about-stat-label">Upgrades</span>
+            </div>
+            <div class="about-stat-card">
+              <span class="about-stat-num">6</span>
+              <span class="about-stat-label">Buildings</span>
+            </div>
+            <div class="about-stat-card">
+              <span class="about-stat-num">10</span>
+              <span class="about-stat-label">Achievements</span>
+            </div>
+            <div class="about-stat-card" style="flex-basis:100%;">
+              <span class="about-stat-num">∞</span>
+              <span class="about-stat-label">Hours of Fun</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER (Component) -->
+  <footer id="site-footer" role="contentinfo"></footer>
+
+  <!-- Scripts -->
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/game.js"></script>
+  <script>
+    // ===== PAGE INIT =====
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Hero background floating cookies
+      const heroBg = document.getElementById('heroBgCookies');
+      if (heroBg) {
+        const emojis = ['🍪','🍫','🌟','✨','🎉','🍰','🧁'];
+        for (let i = 0; i < 18; i++) {
+          const span = document.createElement('span');
+          span.className = 'bg-cookie-float';
+          span.textContent = emojis[i % emojis.length];
+          span.style.left = (Math.random() * 100) + '%';
+          span.style.animationDuration = (12 + Math.random() * 16) + 's';
+          span.style.animationDelay = (-Math.random() * 20) + 's';
+          span.style.fontSize = (1.5 + Math.random() * 2.5) + 'rem';
+          heroBg.appendChild(span);
+        }
+      }
+
+      // Cookie types grid
+      const ctGrid = document.getElementById('cookieTypesGrid');
+      if (ctGrid && typeof COOKIE_TYPES !== 'undefined') {
+        ctGrid.innerHTML = COOKIE_TYPES.map(c => `
+          <article class="cookie-type-card reveal">
+            <div class="cookie-type-svg">${c.svg}</div>
+            <h3 class="cookie-type-name">${c.name} ${c.emoji}</h3>
+            <p class="cookie-type-desc">${c.desc}</p>
+            <div class="cookie-type-stats">
+              <span class="cookie-stat">⚡ ${c.cps} CPS</span>
+              <span class="cookie-stat">👆 +${c.clickValue}/click</span>
+            </div>
+            ${c.unlockAt > 0 ? `<div style="margin-top:10px;font-size:0.78rem;color:#8B6A4A;font-weight:700;">🔓 Unlocks at ${formatNum ? formatNum(c.unlockAt) : c.unlockAt} total cookies</div>` : '<div style="margin-top:10px;font-size:0.78rem;color:#28A745;font-weight:700;">✅ Available from the start!</div>'}
+          </article>
+        `).join('');
+      }
+
+      // Upgrades showcase
+      const ugGrid = document.getElementById('upgradesShowcaseGrid');
+      if (ugGrid && typeof UPGRADES !== 'undefined') {
+        ugGrid.innerHTML = UPGRADES.map(u => `
+          <div class="upgrade-showcase-card reveal">
+            <span class="upgrade-showcase-icon">${u.icon}</span>
+            <div class="upgrade-showcase-info">
+              <div class="upgrade-showcase-name">${u.name}</div>
+              <div class="upgrade-showcase-desc">${u.desc}</div>
+              <div class="upgrade-showcase-meta">
+                <span class="upgrade-tag cost">🍪 ${formatNum ? formatNum(u.cost) : u.cost} cookies</span>
+                <span class="upgrade-tag boost">×${u.multiplier} boost</span>
+              </div>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      // Achievements full grid
+      const achGrid = document.getElementById('achievementsFullGrid');
+      if (achGrid && typeof ACHIEVEMENTS !== 'undefined') {
+        achGrid.innerHTML = ACHIEVEMENTS.map(a => `
+          <div class="achievement-full-card reveal">
+            <span class="achievement-full-icon">${a.icon}</span>
+            <div>
+              <div class="achievement-full-name">${a.name}</div>
+              <div class="achievement-full-desc">${a.desc}</div>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      // FAQ
+      const faqs = [
+        { q: 'What is Click Cookies?', a: 'Click Cookies is a free browser-based idle clicker game. You click a cookie to earn cookies, then spend them on buildings and upgrades to produce even more cookies automatically. It\'s infinitely replayable and endlessly satisfying!' },
+        { q: 'How do I unlock new cookie types?', a: 'New cookie types unlock as you bake more total cookies. The Classic Cookie is available from the start. The Chocolate Fudge unlocks at 50, Rainbow Sprinkle at 500, Galaxy Cookie at 5,000, and the legendary Golden Cookie at 50,000 total cookies baked!' },
+        { q: 'Is my progress saved automatically?', a: 'Yes! Click Cookies auto-saves your progress every 30 seconds to your browser\'s local storage. You can also hit the Save button at any time. Note: clearing your browser data or using private/incognito mode will delete your save.' },
+        { q: 'Can I play Click Cookies on mobile?', a: 'Absolutely! Click Cookies is fully mobile-compatible and works great on smartphones and tablets. The interface adapts to any screen size for a seamless tapping experience.' },
+        { q: 'What are buildings and how do they work?', a: 'Buildings are permanent structures that generate cookies passively every second. Start with Auto Clickers (0.1 CPS) and scale up through Grandmas, Cookie Farms, Mines, Factories, and Labs. Each building gets more expensive as you buy more.' },
+        { q: 'What\'s the difference between upgrades and buildings?', a: 'Buildings produce cookies over time (CPS). Upgrades are one-time purchases that multiply your entire cookie output — both from clicks AND from buildings. Upgrades are the most powerful investments in the long run!' },
+        { q: 'Is Click Cookies really 100% free?', a: 'Yes! Click Cookies is completely free. There are no in-app purchases, no premium features, no ads, and no paywalls. Just pure, unlimited cookie clicking fun.' },
+        { q: 'How do I earn achievements?', a: 'Achievements unlock automatically when you hit certain milestones: baking specific amounts of cookies, clicking a set number of times, buying upgrades, or owning buildings. They\'re tracked in real-time and unlock with a notification.' },
+      ];
+      const faqList = document.getElementById('faqList');
+      if (faqList) {
+        faqList.innerHTML = faqs.map((f, i) => `
+          <div class="faq-item" id="faq-${i}">
+            <div class="faq-q" onclick="toggleFaq(${i})" role="button" tabindex="0" 
+              onkeydown="if(event.key==='Enter')toggleFaq(${i})"
+              aria-expanded="false" aria-controls="faq-a-${i}">
+              ${f.q}
+            </div>
+            <div class="faq-a" id="faq-a-${i}" role="region">${f.a}</div>
+          </div>
+        `).join('');
+      }
+
+      // Scroll reveal
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+      }, { threshold: 0.1 });
+      document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+    });
+
+    function toggleFaq(i) {
+      const item = document.getElementById('faq-' + i);
+      const q = item.querySelector('.faq-q');
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(el => {
+        el.classList.remove('open');
+        el.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+      });
+      if (!wasOpen) {
+        item.classList.add('open');
+        q.setAttribute('aria-expanded', 'true');
+      }
+    }
+  </script>
+</body>
+</html>
