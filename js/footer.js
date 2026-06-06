@@ -44,7 +44,7 @@ function renderFooter() {
           <h4 class="footer-col-title">Legal</h4>
           <ul>
             <li><a href="/privacy">Privacy Policy</a></li>
-            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/terms">Terms of Use</a></li>
             <li><a href="/cookies-policy">Cookie Policy</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/about">About</a></li>   
