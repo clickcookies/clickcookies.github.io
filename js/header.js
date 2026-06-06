@@ -4,7 +4,7 @@ function renderHeader() {
   header.innerHTML = `
     <nav class="navbar" role="navigation" aria-label="Main navigation">
       <div class="nav-container">
-        <a href="#hero" class="nav-logo" aria-label="Click Cookies Home">
+        <a href="/#hero" class="nav-logo" aria-label="Click Cookies Home">
           <span class="logo-icon">🍪</span>
           <span class="logo-text">Click<span class="logo-accent">Cookies</span></span>
         </a>
@@ -12,13 +12,13 @@ function renderHeader() {
           <span></span><span></span><span></span>
         </button>
         <ul class="nav-links" id="navLinks" role="list">
-          <li><a href="#game" class="nav-link">Play Game</a></li>
-          <li><a href="#cookies" class="nav-link">Cookie Types</a></li>
-          <li><a href="#upgrades" class="nav-link">Upgrades</a></li>
-          <li><a href="#achievements" class="nav-link">Achievements</a></li>
-          <li><a href="#leaderboard" class="nav-link">Leaderboard</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#game" class="nav-cta">Play Now 🎮</a></li>
+          <li><a href="/#game" class="nav-link">Play Game</a></li>
+          <li><a href="/#cookies" class="nav-link">Cookie Types</a></li>
+          <li><a href="/#upgrades" class="nav-link">Upgrades</a></li>
+          <li><a href="/#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="/#leaderboard" class="nav-link">Leaderboard</a></li>
+          <li><a href="/#about" class="nav-link">About</a></li>
+          <li><a href="/#game" class="nav-cta">Play Now 🎮</a></li>
         </ul>
       </div>
     </nav>
