@@ -977,7 +977,7 @@ tbody td { padding: 14px 20px; font-size: 0.95rem; }
   .hero-stats { justify-content: center; }
   .hero-desc { margin: 0 auto 36px; }
   .hero-visual { order: -1; }
-  .hero-cookie-showcase { width: 220px; height: 220px; }
+  .hero-cookie-showcase { width: 220px; height: 220px; margin: 0 auto; }
 
   .game-wrapper { grid-template-columns: 1fr; }
   .game-panel { position: static; }
